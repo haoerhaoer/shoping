@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?hbxcp8');
+    src:  url('../fonts/icomoon.eot?hbxcp8#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?hbxcp8') format('truetype'),
+      url('../fonts/icomoon.woff?hbxcp8') format('woff'),
+      url('../fonts/icomoon.svg?hbxcp8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  .nav{
+    overflow: hidden;
+  }
+  .sk{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding-left: 10px;
+}
+.sk .sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 27px;
+    color: black;
+    height: 16px;
+    line-height: 16px;
+}
+.sk .sk_cont{
+    float: left;
+}
+.sk_cont ul li{
+    float: left;
+}
+.sk_cont ul li a{
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 24px;
+}
+.sk_cont ul li:first-of-type a{
+    color: #c81523;
+}
+.sk_cont ul li:last-of-type a::after{
+    font-family: 'icomoon';
+    content: "\ea50";
+}
+.sk_container .hd{
+    margin-bottom: 25px;
+}
+.sk_bd ul li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 13px;
+    margin-top: 20px;
+    border-bottom: 0;
+    overflow: hidden;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd ul li:hover{
+    border: 1px solid #c81523;
+    border-bottom: 0;
+}
+.sk_bd ul li a p,em,.tongji{
+    padding-left: 10px;
+}
+.sk_bd ul li a p{
+    font-size: 14px;
+}
+.sk_bd ul li a em{
+    display: block;
+    font-size: 22px;
+    color: #e60012;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.sk_bd ul li a em::before{
+    content: "¥";
+    font-size: 14px;
+}
+.sk_bd ul li a em::after{
+    content: "¥6988";
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+.sk_bd ul li .wm .tongji{
+    float: left;
+    width: 135px;
+    height: 15px;
+    margin-top: 13px;
+    border-radius: 15px;
+    border: 1px solid #c81523;
+    padding: 0;
+}
+.tongji .mini{
+    width: 80%;
+    height: 13px;
+    background-color: #c81523;
+    border-radius: 13px 0 0 13px;
+    transition: all .5s;
+}
+.tongji:hover .mini{
+    width: 100%;
+}
+.wm{
+    height: 40px;
+    padding-left: 10px;
+}
+.wm p{
+    float: left;
+    font-size: 14px;
+    margin-right: 8px;
+    line-height: 40px;
+}
+.wm em{
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e12228;
+    line-height: 40px;
+}
+.wm em::before{
+    content: "剩余";
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+.wm em::after{
+    content: "件";
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+.sk_bd ul li a:nth-of-type(2){
+    display: block;
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #c81523;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.sk_bd ul li a:nth-of-type(2):active{
+    color: #c81523;
+    background-color: #ffffff;
+}
